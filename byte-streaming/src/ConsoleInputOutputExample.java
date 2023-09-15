@@ -23,15 +23,15 @@ public class ConsoleInputOutputExample {
 
         System.out.println("-------------------Scanner example with File content------------------------");
         try{
-            Scanner fileScanner = new Scanner(new File("C:\\Users\\vikra\\IdeaProjects\\java-io-concepts-2\\byte-streaming\\src\\sample-file.txt"));
+            Scanner fileScanner = new Scanner(new File("F:\\JAVA Programs\\java-io-concepts\\byte-streaming\\src\\sample-file.txt"));
             while (fileScanner.hasNext()){
                 String fileContent = fileScanner.next();
                 System.out.println(fileContent);
             }
-        } catch (FileNotFoundException | NullPointerException exception){
+        }
+        catch (FileNotFoundException | NullPointerException exception){
             System.out.println(exception.getMessage());
         }
-
 
     }
 }
