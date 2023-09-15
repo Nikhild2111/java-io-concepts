@@ -32,6 +32,5 @@ public class ConsoleInputOutputExample {
         catch (FileNotFoundException | NullPointerException exception){
             System.out.println(exception.getMessage());
         }
-
     }
 }
