@@ -23,7 +23,7 @@ public class ByteArrayInputOutputStreamExample {
 
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();//Write
 
-//            System.out.println("inputStream.readAllBytes() = "+ Arrays.toString(inputStream.readAllBytes()));
+            System.out.println("inputStream.readAllBytes() = "+ Arrays.toString(inputStream.readAllBytes()));
             outputStream.write(inputStream.readAllBytes());
 
             byte[] bytesFromOutputStream = outputStream.toByteArray();
